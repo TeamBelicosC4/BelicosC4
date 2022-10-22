@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Navegacion() {
 
@@ -7,12 +8,12 @@ function Navegacion() {
     <div>
      <div class="contenedor-navegacion"> 
         <nav class="nav-principal">
-            <a href="index.html">Inicio</a>
-            <a href="C:\Users\User\Desktop\CICLO4\BelicosC4\tienda-c4\nosotros.html">Nosotros</a>
-            <a href="tienda.html">Tienda</a>
-            <a href="blog.html">Blog</a>
-            <a href="galeria.html">Galeria</a>
-            <a href="contacto.html">Contacto</a>
+            <Link to="/">Inicio</Link>
+            <Link to="/Nosotros">Nosotros</Link>
+            <Link to="/Tienda">Tienda</Link>
+            <Link to="/Blog">Blog</Link>
+            <Link to="/Galeria">Galeria</Link>
+            <Link to="/Contacto">Contacto</Link>
         </nav>
     </div>
     </div>
