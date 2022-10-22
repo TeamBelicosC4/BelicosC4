@@ -2,10 +2,20 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
+import Nosotros from './Nosotros'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App/>
+   
   </React.StrictMode>
 )
+
+ReactDOM.createRoot(document.getElementById('nosotros')).render(
+  <React.StrictMode>
+    <Nosotros/>
+  </React.StrictMode>
+)
+
+
