@@ -4,9 +4,9 @@ function SobreNosotros() {
   return (
     <>
       <div>
-        <section class="sobre-nosotros">
-          <div class="contenedor sobre-nosotros-grid">
-            <div class="texto-nosotros">
+        <section className="sobre-nosotros">
+          <div className="contenedor sobre-nosotros-grid">
+            <div className="texto-nosotros">
               <h2>Sobre Nosotros</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.

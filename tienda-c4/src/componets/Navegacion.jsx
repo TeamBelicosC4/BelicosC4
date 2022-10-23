@@ -6,14 +6,14 @@ function Navegacion() {
   return (
     <>
     <div>
-     <div class="contenedor-navegacion"> 
-        <nav class="nav-principal">
+     <div className="contenedor-navegacion"> 
+        <nav className="nav-principal">
             <Link to="/">Inicio</Link>
             <Link to="/Nosotros">Nosotros</Link>
             <Link to="/Tienda">Tienda</Link>
-            <Link to="/Blog">Blog</Link>
             <Link to="/Galeria">Galeria</Link>
             <Link to="/Contacto">Contacto</Link>
+            <Link to="/Administrador">Administrador</Link>
         </nav>
     </div>
     </div>

@@ -4,7 +4,11 @@ import App from './App'
 import './index.css'
 import Nosotros from './Nosotros'
 import {createBrowserRouter, RouterProvider}  from 'react-router-dom'
-import NuestrosProductos from './componets/NuestrosProductos'
+import Tienda from './Tienda'
+import GaleriaTienda from './GaleriaTienda'
+import Contacto from './Contacto'
+
+
 
 const router = createBrowserRouter([
   {
@@ -18,8 +22,25 @@ const router = createBrowserRouter([
   {
     path: '/Tienda',
     
-    element:<NuestrosProductos/>
+    element:<Tienda/>
+  },
+  {
+    path: '/Galeria',
+    element:<GaleriaTienda/>
+  },
+
+  {
+    path: '/Contacto',
+    element:<Contacto/>
   }
+  /*
+
+  {
+    path: '/Administrador',
+    element:<MenuLateralPrueva/>
+
+    
+  }*/
 
 ])
 

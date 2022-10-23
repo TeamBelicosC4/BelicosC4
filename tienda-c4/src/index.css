@@ -1,3 +1,4 @@
+
 /*con esto no tendremos probema con el padding a esto se  le domina box model*/
 html {
   box-sizing: border-box;
@@ -398,6 +399,29 @@ border: none; /*para que no nos maque el borde que se miraba feo*/
   flex: 1;
   border: 1px solid #e1e1e1;
   padding: 1rem;
+}
+/*
+.icon__menu {
+  width: 50px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(10px);
+}*/
+
+.icon__menu i{
+  font-size: 3rem;
+  cursor: pointer;
+  position: absolute;
+  width: 3rem;
+  
+  padding: 3.5rem;
+  display: flex;
+  justify-content: right;
+  
+  
+  
 }
 
 

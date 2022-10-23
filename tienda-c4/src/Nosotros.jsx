@@ -8,7 +8,7 @@ import SobreNosotros from './componets/SobreNosotros'
 function Nosotros() {
   return (
     <>
-      <Header />
+      <Header/>
       <Navegacion />
       <SobreNosotros />
       <Footer />
