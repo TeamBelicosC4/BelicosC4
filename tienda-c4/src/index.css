@@ -432,7 +432,7 @@ ul {
 
   display: block;
   position: absolute;
-  right:0;
+  left:0;
   top:100%;
   z-index: 1;
   background-color: rgb(249, 251, 251);
@@ -440,6 +440,26 @@ ul {
   min-height: 400px;
   min-width: 300px;
 }
+
+/*
+.submenu:hover #botonMenu{
+
+  display: block;
+  position: absolute;
+  left: 0px;;
+  top:100%;
+  z-index: 1;
+  background-color: rgb(249, 251, 251);
+  padding: 3rem;
+  min-height: 400px;
+  min-width: 300px;
+}
+*/
+
+
+
+
+
 .vacio {
   padding: 10px;
   background-color: crimson;
@@ -477,8 +497,7 @@ nav a:hover{
 }
 
 .nombre-sitio {
-  font-size: 6rem;
- 
+  font-size: 6rem; 
   margin-right: 1rem;   
 }
 
