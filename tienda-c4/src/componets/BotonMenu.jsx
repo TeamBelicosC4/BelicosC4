@@ -2,11 +2,7 @@ import React from 'react'
 
 function BotonMenu() {
   return (
-    <div>
-
-        
-
-
+    <div>      
       
     </div>
   )
