@@ -81,7 +81,7 @@ img {
 
 .nombre-sitio {
   margin-top: 5rem;    
-  text-align: center;/*centra el texto*/
+  
  
 }
 .nombre-sitio span{
@@ -400,28 +400,90 @@ border: none; /*para que no nos maque el borde que se miraba feo*/
   border: 1px solid #e1e1e1;
   padding: 1rem;
 }
-/*
-.icon__menu {
-  width: 50px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateX(10px);
-}*/
 
-.icon__menu i{
-  font-size: 3rem;
+
+
+
+i{
+ 
+  font-size: 4rem;
   cursor: pointer;
-  position: absolute;
-  width: 3rem;
-  
-  padding: 3.5rem;
-  display: flex;
-  justify-content: right;
-  
-  
-  
+  padding: 3rem;
+      
 }
 
 
+ul {
+  list-style: none;
+}
+
+
+.submenu {
+  position: relative;
+
+}
+
+.submenu #carrito{
+  display: none;
+  
+ 
+}
+.submenu:hover #carrito{
+
+  display: block;
+  position: absolute;
+  right:0;
+  top:100%;
+  z-index: 1;
+  background-color: rgb(249, 251, 251);
+  padding: 3rem;
+  min-height: 400px;
+  min-width: 300px;
+}
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+
+header{
+    
+  display: flex;
+  height: 15rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 0 0 ;
+}
+ 
+
+
+nav a{
+  text-decoration: none;
+  color: black;
+  padding:10px;
+}
+
+nav a:hover{
+
+  color:#037bc0
+}
+
+
+.nombre-sitio span{
+  color: #037bc0; 
+  text-align: center;
+}
+
+.nombre-sitio {
+  font-size: 6rem;
+ 
+  margin-right: 1rem;   
+}
+
+.carrito img{
+
+  margin-right: 3rem; 
+  cursor: pointer;
+}

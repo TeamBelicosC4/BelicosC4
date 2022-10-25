@@ -13,7 +13,7 @@ function Navegacion() {
             <Link to="/Tienda">Tienda</Link>
             <Link to="/Galeria">Galeria</Link>
             <Link to="/Contacto">Contacto</Link>
-            <Link to="/Administrador">Administrador</Link>
+            
         </nav>
     </div>
     </div>

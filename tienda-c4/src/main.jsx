@@ -33,14 +33,7 @@ const router = createBrowserRouter([
     path: '/Contacto',
     element:<Contacto/>
   }
-  /*
-
-  {
-    path: '/Administrador',
-    element:<MenuLateralPrueva/>
-
-    
-  }*/
+ 
 
 ])
 
