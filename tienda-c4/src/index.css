@@ -79,6 +79,14 @@ img {
 /*header y navegacion*/
 
 
+.nombre-sitio {
+  margin-top: 5rem;    
+  
+ 
+}
+.nombre-sitio span{
+  color: #037bc0; /*color conbinado del titulo*/
+}
 
 .contenedor-navegacion{
   border-top: 0.1rem solid #e1e1e1; /*linea hasta loes extremos*/
@@ -460,15 +468,23 @@ ul {
   color: white;
 }
 
+header{
+    
+  display: flex;
+  height: 15rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0 0 0 ;
+}
+ 
 
 
+nav a{
+  text-decoration: none;
+  color: black;
+  padding:10px;
+}
 
-<<<<<<< HEAD
-  
-
-
-
-=======
 nav a:hover{
 
   color:#037bc0
@@ -490,4 +506,3 @@ nav a:hover{
   margin-right: 3rem; 
   cursor: pointer;
 }
->>>>>>> 2187181aebdfb6c5fa7960abd9609eb48d974168

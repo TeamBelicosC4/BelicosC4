@@ -15,7 +15,6 @@ export function Links() {
 }
 
 
-
 function NuestrosProductos() {
 
   /*Agregando Prodcutos al carrito*/
@@ -23,11 +22,15 @@ function NuestrosProductos() {
   const handleSubmit = e => {
     e.preventDefault();
 
+  
+
     if (cantidad < 1) {
       alert('Debes Seleccionar Cantidad')
       return;
 
     }
+
+    
 
  /*alm en un obj
   const productoSeleccionado ={
@@ -35,9 +38,6 @@ function NuestrosProductos() {
 
 
   }*/
-
-
-
 
   }
 
