@@ -424,7 +424,7 @@ ul {
 
   display: block;
   position: absolute;
-  right:0;
+  left:0;
   top:100%;
   z-index: 1;
   background-color: rgb(249, 251, 251);
@@ -432,6 +432,26 @@ ul {
   min-height: 400px;
   min-width: 300px;
 }
+
+/*
+.submenu:hover #botonMenu{
+
+  display: block;
+  position: absolute;
+  left: 0px;;
+  top:100%;
+  z-index: 1;
+  background-color: rgb(249, 251, 251);
+  padding: 3rem;
+  min-height: 400px;
+  min-width: 300px;
+}
+*/
+
+
+
+
+
 .vacio {
   padding: 10px;
   background-color: crimson;
@@ -443,7 +463,31 @@ ul {
 
 
 
+<<<<<<< HEAD
   
 
 
 
+=======
+nav a:hover{
+
+  color:#037bc0
+}
+
+
+.nombre-sitio span{
+  color: #037bc0; 
+  text-align: center;
+}
+
+.nombre-sitio {
+  font-size: 6rem; 
+  margin-right: 1rem;   
+}
+
+.carrito img{
+
+  margin-right: 3rem; 
+  cursor: pointer;
+}
+>>>>>>> 2187181aebdfb6c5fa7960abd9609eb48d974168
