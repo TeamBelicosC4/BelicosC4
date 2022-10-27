@@ -1,0 +1,40 @@
+header {
+
+    display: flex;
+    height: 15rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0 0 0;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #037bc0
+}
+
+.nombre-sitio {
+    margin-top: 5rem;
+
+}
+
+.nombre-sitio span {
+    color: #037bc0;
+    text-align: center;
+}
+
+.nombre-sitio {
+    font-size: 6rem;
+    margin-right: 1rem;
+}
+
+.imgcarro {
+    width: 5rem;
+    margin-right: 4rem;
+    cursor: pointer;
+}

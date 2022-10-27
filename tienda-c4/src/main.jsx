@@ -7,6 +7,9 @@ import {createBrowserRouter, RouterProvider}  from 'react-router-dom'
 import Tienda from './Tienda'
 import GaleriaTienda from './GaleriaTienda'
 import Contacto from './Contacto'
+import Carrito from './Carrito'
+
+
 
 
 
@@ -32,8 +35,12 @@ const router = createBrowserRouter([
   {
     path: '/Contacto',
     element:<Contacto/>
+  },
+
+ {
+  path: '/Carrito',
+    element:<Carrito/>
   }
- 
 
 ])
 
@@ -41,7 +48,6 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <RouterProvider router={router}/>   
-   
   </React.StrictMode>
 )
 
