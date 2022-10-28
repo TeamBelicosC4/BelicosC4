@@ -1,0 +1,38 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.formulario label {
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    text-align: left;
+}
+
+.formulario select {
+    text-align: center;
+    padding: 0.5rem;
+    border: none;
+
+}
+
+
+/*Selector btn ++->Carrito*/
+.formulario input[type="submit"] {
+    margin-top: 1rem;
+    padding: 2rem;
+    background-color: #8cbc00;
+    color: #ffff;
+    text-transform: uppercase; /*txt a Mayus*/
+    font-weight: 800;  /*negrita*/
+    text-align: center;
+    border: none;
+    transition-property: background-color;
+    transition-duration: 300ms; /*temp transs*/
+}
+
+.formulario input[type="submit"]:hover {
+    background-color: #658504;
+    cursor: pointer;
+}

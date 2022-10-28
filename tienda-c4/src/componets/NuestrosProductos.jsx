@@ -1,9 +1,46 @@
 import React from "react";
+import estilos from '../estilos/productos.css'
+import { Outlet } from 'react-router-dom'
+import { useState } from "react";
 
-import {Outlet} from 'react-router-dom'
+export function Links() {
+  return [
+
+    {
+      rel: 'estilossheet',
+      href: estilos
+
+    }
+  ]
+}
 
 
 function NuestrosProductos() {
+
+  /*Agregando Prodcutos al carrito*/
+  const [cantidad, setCantidad] = useState(0)
+  const handleSubmit = e => {
+    e.preventDefault();
+
+  
+
+    if (cantidad < 1) {
+      alert('Debes Seleccionar Cantidad')
+      return;
+
+    }
+
+    
+
+ /*alm en un obj
+  const productoSeleccionado ={
+    id: 
+
+
+  }*/
+
+  }
+
   return (
     <>
       <div>
@@ -20,9 +57,27 @@ function NuestrosProductos() {
                   estándar d
                 </p>
                 <p className="precio">$1.000.000</p>
-                <a className="btn" href="#">
-                  Agregar al carrito
-                </a>
+
+                <form onSubmit={handleSubmit} className="formulario">
+                  <label htmlFor="cantidad">Cantidad</label>
+
+                  <select
+                    onChange={e => setCantidad(parseInt(e.target.value))}/*parseo y i++ de cantidad*/
+                    id="cantidad">
+                    <option value="0">Seleccione</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                  </select>
+
+                  <input
+                    type="submit"
+                    value="Agregar al Carrito" />
+                </form>
+
+
               </div>
             </div>
             <div className="producto">
