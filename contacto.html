@@ -35,84 +35,89 @@
       <h2 class="text-center">Contacto</h2>
 
       <!--los formualrios siempre deben de ir dentro de un form-->
-      <form class="formulario"> <!--for y el id me direccionan al usuario para que ingrese sus datos -->
-       
-        <fieldset> <!--agrupa los campos relacionados-->
-            <legend>Tus Datos</legend><!--coloca texto en la agrupacion -->
-            <div class="campo">            
-                <label for="nombre">Nombre: </label> <!--ojo que los label siempre van con los imput -->
-                <input id="nombre" type="text" placeholder="Tu Nombre"/><!--solo cerramos con diagonal ya que no tiene etiqueta de cierre-->
-            </div>
-            <div class="campo">
-                <label for="asunto">Asunto: </label> <!--ojo que los label siempre van con los imput -->
-                <input id="asunto" type="text" placeholder="Tu Asunto"/>
-            </div>  
-            <div class="campo">
-                <label for="email">Email: </label> <!--ojo que los label siempre van con los imput -->
-                <input id="email" type="email" placeholder="Tu Email"/>
-            </div>  
+      <form class="formulario">
+        <!--for y el id me direccionan al usuario para que ingrese sus datos -->
 
-            <div class="campo">
-                <label for="tel">Telefono: </label> <!--ojo que los label siempre van con los imput -->
-                <input id="tel" type="tel" placeholder="Tu Telefono"/>
-            </div>  
+        <fieldset>
+          <!--agrupa los campos relacionados-->
+          <legend>Tus Datos</legend>
+          <!--coloca texto en la agrupacion -->
+          <div class="campo">
+            <label for="nombre">Nombre: </label>
+            <!--ojo que los label siempre van con los imput -->
+            <input
+              id="nombre"
+              type="text"
+              placeholder="Tu Nombre"
+            /><!--solo cerramos con diagonal ya que no tiene etiqueta de cierre-->
+          </div>
+          <div class="campo">
+            <label for="asunto">Asunto: </label>
+            <!--ojo que los label siempre van con los imput -->
+            <input id="asunto" type="text" placeholder="Tu Asunto" />
+          </div>
+          <div class="campo">
+            <label for="email">Email: </label>
+            <!--ojo que los label siempre van con los imput -->
+            <input id="email" type="email" placeholder="Tu Email" />
+          </div>
 
-            <div class="campo">
-                <label for="tel">Mensaje: </label> <!--ojo que los label siempre van con los imput -->
-                <textarea cols="20" rows="9">
+          <div class="campo">
+            <label for="tel">Telefono: </label>
+            <!--ojo que los label siempre van con los imput -->
+            <input id="tel" type="tel" placeholder="Tu Telefono" />
+          </div>
 
-                </textarea>
-            </div>       
-                        
+          <div class="campo">
+            <label for="tel">Mensaje: </label>
+            <!--ojo que los label siempre van con los imput -->
+            <textarea cols="20" rows="9"> </textarea>
+          </div>
         </fieldset>
 
         <fieldset>
-            <legend>Pais</legend>
-            <div class="campo">
-                <label for="pais">Pais</label>
-                <select id="pais">
-                    <option disabled >--Seleccione--</option>
-                    <option >Colombia</option>
-                    <option >Mexico</option>
-                    <option >Peru</option>
-                    <option >Argentina</option>
-                    <option >España</option>
-                </select>
-            </div>            
-
+          <legend>Pais</legend>
+          <div class="campo">
+            <label for="pais">Pais</label>
+            <select id="pais">
+              <option disabled>--Seleccione--</option>
+              <option>Colombia</option>
+              <option>Mexico</option>
+              <option>Peru</option>
+              <option>Argentina</option>
+              <option>España</option>
+            </select>
+          </div>
         </fieldset>
         <fieldset>
-            <legend>Infomacion Extra</legend>
+          <legend>Infomacion Extra</legend>
 
-            <div class="campo">
-                <label for="cliente">Cliente</label>
-                <input id="cliente" type="radio" name="tipo"> <!--esto es un radio Botton-->
-            </div>   <!--ojo que el name en el radio nos permite funcionar con el fin de solo seleccionar 01-->
-            <div class="campo">
-                <label for="proveedor">Proveedor</label>
-                <input id="proveedor" type="radio" name="tipo"> <!--esto es un radio Botton-->
-            </div>   
-            
-            <div class="campo">
-                <label for="categoria">Categoria de Interes</label>
-                <input list="categorias" name="categorias">
-                <datalist id="categorias">
-                    <option value="Cocina">
-                    <option value="Exterior">
-                    <option value="Oficina">
-                    <option value="Televisio">                                
-                    
-                </datalist>
-            </div>
+          <div class="campo">
+            <label for="cliente">Cliente</label>
+            <input id="cliente" type="radio" name="tipo" />
+            <!--esto es un radio Botton-->
+          </div>
+          <!--ojo que el name en el radio nos permite funcionar con el fin de solo seleccionar 01-->
+          <div class="campo">
+            <label for="proveedor">Proveedor</label>
+            <input id="proveedor" type="radio" name="tipo" />
+            <!--esto es un radio Botton-->
+          </div>
 
+          <div class="campo">
+            <label for="categoria">Categoria de Interes</label>
+            <input list="categorias" name="categorias" />
+            <datalist id="categorias">
+              <option value="Cocina"></option>
+              <option value="Exterior"></option>
+              <option value="Oficina"></option>
+              <option value="Televisio"></option>
+            </datalist>
+          </div>
         </fieldset>
-       
-        
-        <input class="btn" type="submit">
 
+        <input class="btn" type="submit" />
       </form>
-
-
     </main>
 
     <footer class="site-footer">
