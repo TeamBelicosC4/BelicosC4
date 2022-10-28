@@ -32,10 +32,7 @@ function Header() {
                 <table id="lista-carrito" class="u-full-width">
                   <thead>
                     <tr>
-                      <th>Imagen</th>
-                      <th>Nombre</th>
-                      <th>Precio</th>
-                      <th>Cantidad</th>
+                      <th>Administrador</th>                      
                       <th></th>
                     </tr>
                   </thead>
@@ -43,14 +40,12 @@ function Header() {
                 </table>
 
                 <a href="#" id="vaciar-carrito" class="button u-full-width">
-                  Vaciar Carrito
+                  login
                 </a>
               </div>
             </li>
           </ul>
         </div>
-
-
 
 
         <h1 class="nombre-sitio">Muebles <span>BAUZA </span> </h1>

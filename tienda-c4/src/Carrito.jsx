@@ -25,7 +25,7 @@ function Carrito() {
             <main className='contenedor'>
                 <h1 className='heading'>Carrito de Compras</h1>
                 <div className='contenido'>
-                    <div className='carrito'>
+                    <div className='articulos'>
                         <h2>Articulos</h2>
                     </div>
                     <aside className='resumen'>
